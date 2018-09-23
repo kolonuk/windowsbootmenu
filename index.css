@@ -1,6 +1,91 @@
 body {
     background-color: rgb(32,103,178);
-    color: green;
+    color: white;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 100;
+    
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
 }
 
-h1 { font-family: "Segoe UI"; font-size: 24px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 26.4px; } h3 { font-family: "Segoe UI"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 700; line-height: 15.4px; } p { font-family: "Segoe UI"; font-size: 14px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 20px; } blockquote { font-family: "Segoe UI"; font-size: 17.5px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 25px; } pre { font-family: "Segoe UI"; font-size: 13px; font-style: normal; font-variant: normal; font-weight: 400; line-height: 18.5714px; }
+h1 {
+    font-size: 60px;
+    font-weight: 100;
+    position: centre;
+    left: 20%;
+}
+
+h3 {
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 700;
+    line-height: 15.4px;
+}
+
+p {
+    font-size: 14px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 20px;
+}
+
+blockquote {
+    font-size: 17.5px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 25px;
+}
+
+pre {
+    font-size: 13px;
+    font-style: normal;
+    font-variant: normal;
+    font-weight: 400;
+    line-height: 18.5714px;
+}
+
+#option:hover {
+    border-color: white;
+}
+
+#menu {
+    display: flex;
+}
+
+#leftoptions {
+    flex: 0 0 50%;
+}
+
+#rightoptions {
+    flex: 1;   
+}
+
+#option {
+    border-color:transparent;
+    border-width: 2px;
+    border-style: solid;
+    padding: 4px;
+    margin: 10px;
+    overflow:hidden;
+}
+
+#option img {
+    float: left;
+}
+
+.optiontitle {
+    font-size: 30px;
+    white-space: nowrap;
+}
+
+.optiontext {
+    font-size: 15px;
+    white-space: nowrap;
+}
